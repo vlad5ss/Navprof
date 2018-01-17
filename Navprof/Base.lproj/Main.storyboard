@@ -53,7 +53,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="68X-uN-onZ" kind="relationship" relationship="rootViewController" id="cyi-oB-Ela"/>
+                        <segue destination="68X-uN-onZ" kind="relationship" relationship="rootViewController" id="OPp-gc-DyF"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Dv-Ac-d3N" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -63,7 +63,7 @@
         <!--Map View Controller-->
         <scene sceneID="3VV-Wt-FIN">
             <objects>
-                <viewController restorationIdentifier="MapviewController" storyboardIdentifier="MapviewController" id="68X-uN-onZ" customClass="MapViewController" customModule="Navprof" sceneMemberID="viewController">
+                <viewController restorationIdentifier="MapViewController" storyboardIdentifier="MapViewController" id="68X-uN-onZ" customClass="MapViewController" customModule="Navprof" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bNu-hE-R8m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -77,7 +77,7 @@
                                     <color key="titleShadowColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnZoomIn:" destination="68X-uN-onZ" eventType="touchUpInside" id="DF4-yV-d4e"/>
+                                    <action selector="btnZoomIn:" destination="68X-uN-onZ" eventType="touchUpInside" id="0V2-kW-Qe7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8I-wz-2Ve">
@@ -89,7 +89,7 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnZoomOut:" destination="68X-uN-onZ" eventType="touchUpInside" id="ZRb-sQ-v4X"/>
+                                    <action selector="btnZoomOut:" destination="68X-uN-onZ" eventType="touchUpInside" id="qdZ-oj-Jvn"/>
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lZo-An-MfA">
@@ -100,7 +100,7 @@
                                     <segment title="Satelite"/>
                                 </segments>
                                 <connections>
-                                    <action selector="selectMapView:" destination="68X-uN-onZ" eventType="valueChanged" id="YFf-Zc-h0b"/>
+                                    <action selector="selectMapView:" destination="68X-uN-onZ" eventType="valueChanged" id="6wx-vj-mL5"/>
                                 </connections>
                             </segmentedControl>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0n2-G6-zl1" customClass="GMSMapView">
@@ -121,14 +121,14 @@
                         <barButtonItem key="rightBarButtonItem" title="Item" image="joxnablack24" id="E3D-Iq-nir"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="mapView" destination="0n2-G6-zl1" id="HH2-aa-jSG"/>
-                        <segue destination="piK-qD-8UE" kind="show" identifier="pushToProfile" id="baj-zN-YK5"/>
-                        <segue destination="Lg6-Ka-qwr" kind="show" identifier="pushToSupport" id="fvP-O3-jc9"/>
-                        <segue destination="oHS-wg-kam" kind="show" identifier="pushToAbout" id="4Af-aY-l2F"/>
-                        <segue destination="xJI-du-Cgh" kind="show" identifier="pushToPayment" id="eI8-9z-ARu"/>
-                        <segue destination="Iwb-IQ-ziU" kind="show" identifier="pushToPromotion" id="vA5-Vl-wE8"/>
-                        <segue destination="C4b-oX-2Cc" kind="show" identifier="pushToShare" id="dhH-D2-kyY"/>
-                        <segue destination="oJb-6i-KTS" kind="show" identifier="pushToHireme" id="a3f-x9-Y3a"/>
+                        <outlet property="mapView" destination="0n2-G6-zl1" id="vrU-5R-IAm"/>
+                        <segue destination="piK-qD-8UE" kind="show" identifier="pushToProfile" id="cpo-Vf-hFB"/>
+                        <segue destination="Lg6-Ka-qwr" kind="show" identifier="pushToSupport" id="sKs-Nl-A7p"/>
+                        <segue destination="oHS-wg-kam" kind="show" identifier="pushToAbout" id="9vg-df-a5R"/>
+                        <segue destination="xJI-du-Cgh" kind="show" identifier="pushToPayment" id="rcN-Oh-3xv"/>
+                        <segue destination="Iwb-IQ-ziU" kind="show" identifier="pushToPromotion" id="eqg-pR-qvX"/>
+                        <segue destination="C4b-oX-2Cc" kind="show" identifier="pushToShare" id="lFZ-ln-aUc"/>
+                        <segue destination="oJb-6i-KTS" kind="show" identifier="pushToHireme" id="VHY-J2-qM3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WpY-K0-bKW" sceneMemberID="firstResponder"/>

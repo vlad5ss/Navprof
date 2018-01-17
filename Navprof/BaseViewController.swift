@@ -28,9 +28,9 @@ class BaseViewController: UIViewController, SlideMenuDelegate {
         switch(index){
             
         case 0:
-            print("MapviewController\n", terminator: "")
+            print("MapViewController\n", terminator: "")
             
-            self.openViewControllerBasedOnIdentifier("MapviewController")
+            self.openViewControllerBasedOnIdentifier("MapViewController")
             
             break
         case 1:
