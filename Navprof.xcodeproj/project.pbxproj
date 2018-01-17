@@ -13,6 +13,18 @@
 		0456D0F9200FD99600768CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0456D0F8200FD99600768CDE /* Assets.xcassets */; };
 		0456D0FC200FD99600768CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0456D0FA200FD99600768CDE /* LaunchScreen.storyboard */; };
 		0456D107200FD99600768CDE /* NavprofTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D106200FD99600768CDE /* NavprofTests.swift */; };
+		0456D112200FDA2900768CDE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D111200FDA2900768CDE /* MainViewController.swift */; };
+		0456D114200FDA4100768CDE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D113200FDA4100768CDE /* BaseViewController.swift */; };
+		0456D116200FDB1400768CDE /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D115200FDB1400768CDE /* Profile.swift */; };
+		0456D118200FDB3300768CDE /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D117200FDB3300768CDE /* Payment.swift */; };
+		0456D11A200FDB5700768CDE /* Promotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D119200FDB5700768CDE /* Promotion.swift */; };
+		0456D11C200FDB6500768CDE /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D11B200FDB6500768CDE /* Share.swift */; };
+		0456D11E200FDB7700768CDE /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D11D200FDB7700768CDE /* Support.swift */; };
+		0456D120200FDB8D00768CDE /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D11F200FDB8D00768CDE /* About.swift */; };
+		0456D122200FDBAB00768CDE /* Hireme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D121200FDBAB00768CDE /* Hireme.swift */; };
+		0456D124200FDC9000768CDE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D123200FDC9000768CDE /* MapViewController.swift */; };
+		A02529884E75045FF0B39FE9 /* Pods_NavprofTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6F0DBF90F320BAB687D4F7 /* Pods_NavprofTests.framework */; };
+		E9F739C813C6A34AD7A90F1F /* Pods_Navprof.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA2CB61E9181B84F3C12C55 /* Pods_Navprof.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,22 @@
 		0456D102200FD99600768CDE /* NavprofTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavprofTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0456D106200FD99600768CDE /* NavprofTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavprofTests.swift; sourceTree = "<group>"; };
 		0456D108200FD99600768CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0456D111200FDA2900768CDE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0456D113200FDA4100768CDE /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0456D115200FDB1400768CDE /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		0456D117200FDB3300768CDE /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		0456D119200FDB5700768CDE /* Promotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promotion.swift; sourceTree = "<group>"; };
+		0456D11B200FDB6500768CDE /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
+		0456D11D200FDB7700768CDE /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		0456D11F200FDB8D00768CDE /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		0456D121200FDBAB00768CDE /* Hireme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hireme.swift; sourceTree = "<group>"; };
+		0456D123200FDC9000768CDE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		637AD9BFED8C1BD524A8223A /* Pods-NavprofTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavprofTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavprofTests/Pods-NavprofTests.release.xcconfig"; sourceTree = "<group>"; };
+		7AE819080E32508069350F96 /* Pods-Navprof.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navprof.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Navprof/Pods-Navprof.debug.xcconfig"; sourceTree = "<group>"; };
+		9A6F0DBF90F320BAB687D4F7 /* Pods_NavprofTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavprofTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA2CB61E9181B84F3C12C55 /* Pods_Navprof.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Navprof.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA4F3F52418BF6E7CEF0AF4 /* Pods-Navprof.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navprof.release.xcconfig"; path = "Pods/Target Support Files/Pods-Navprof/Pods-Navprof.release.xcconfig"; sourceTree = "<group>"; };
+		C5366CB0FC2396327130C124 /* Pods-NavprofTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavprofTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavprofTests/Pods-NavprofTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F739C813C6A34AD7A90F1F /* Pods_Navprof.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A02529884E75045FF0B39FE9 /* Pods_NavprofTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +92,8 @@
 				0456D0F0200FD99600768CDE /* Navprof */,
 				0456D105200FD99600768CDE /* NavprofTests */,
 				0456D0EF200FD99600768CDE /* Products */,
+				EBB01D2D631EDAC571BF399E /* Pods */,
+				3A5EB538DB898B9317664F1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +111,16 @@
 			children = (
 				0456D0F1200FD99600768CDE /* AppDelegate.swift */,
 				0456D0F3200FD99600768CDE /* ViewController.swift */,
+				0456D111200FDA2900768CDE /* MainViewController.swift */,
+				0456D113200FDA4100768CDE /* BaseViewController.swift */,
+				0456D115200FDB1400768CDE /* Profile.swift */,
+				0456D117200FDB3300768CDE /* Payment.swift */,
+				0456D119200FDB5700768CDE /* Promotion.swift */,
+				0456D11B200FDB6500768CDE /* Share.swift */,
+				0456D11D200FDB7700768CDE /* Support.swift */,
+				0456D11F200FDB8D00768CDE /* About.swift */,
+				0456D121200FDBAB00768CDE /* Hireme.swift */,
+				0456D123200FDC9000768CDE /* MapViewController.swift */,
 				0456D0F5200FD99600768CDE /* Main.storyboard */,
 				0456D0F8200FD99600768CDE /* Assets.xcassets */,
 				0456D0FA200FD99600768CDE /* LaunchScreen.storyboard */,
@@ -96,6 +138,26 @@
 			path = NavprofTests;
 			sourceTree = "<group>";
 		};
+		3A5EB538DB898B9317664F1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABA2CB61E9181B84F3C12C55 /* Pods_Navprof.framework */,
+				9A6F0DBF90F320BAB687D4F7 /* Pods_NavprofTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBB01D2D631EDAC571BF399E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AE819080E32508069350F96 /* Pods-Navprof.debug.xcconfig */,
+				ADA4F3F52418BF6E7CEF0AF4 /* Pods-Navprof.release.xcconfig */,
+				C5366CB0FC2396327130C124 /* Pods-NavprofTests.debug.xcconfig */,
+				637AD9BFED8C1BD524A8223A /* Pods-NavprofTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0456D10B200FD99600768CDE /* Build configuration list for PBXNativeTarget "Navprof" */;
 			buildPhases = (
+				DE96DFE95361D3E38A51BA67 /* [CP] Check Pods Manifest.lock */,
 				0456D0EA200FD99600768CDE /* Sources */,
 				0456D0EB200FD99600768CDE /* Frameworks */,
 				0456D0EC200FD99600768CDE /* Resources */,
+				92131E2D700965E4FD7703EC /* [CP] Embed Pods Frameworks */,
+				9573630546A3A0A943CE2448 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0456D10E200FD99600768CDE /* Build configuration list for PBXNativeTarget "NavprofTests" */;
 			buildPhases = (
+				6E8594825582505D042F1DF9 /* [CP] Check Pods Manifest.lock */,
 				0456D0FE200FD99600768CDE /* Sources */,
 				0456D0FF200FD99600768CDE /* Frameworks */,
 				0456D100200FD99600768CDE /* Resources */,
+				4B5A6F0160EC9B3FA8A6A9A2 /* [CP] Embed Pods Frameworks */,
+				578906D8AA528A92033FA999 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,13 +262,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B5A6F0160EC9B3FA8A6A9A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavprofTests/Pods-NavprofTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		578906D8AA528A92033FA999 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavprofTests/Pods-NavprofTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E8594825582505D042F1DF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavprofTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92131E2D700965E4FD7703EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Navprof/Pods-Navprof-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9573630546A3A0A943CE2448 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Navprof/Pods-Navprof-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Navprof/Pods-Navprof-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE96DFE95361D3E38A51BA67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Navprof-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0456D0EA200FD99600768CDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0456D112200FDA2900768CDE /* MainViewController.swift in Sources */,
+				0456D11C200FDB6500768CDE /* Share.swift in Sources */,
+				0456D11A200FDB5700768CDE /* Promotion.swift in Sources */,
+				0456D116200FDB1400768CDE /* Profile.swift in Sources */,
+				0456D114200FDA4100768CDE /* BaseViewController.swift in Sources */,
+				0456D120200FDB8D00768CDE /* About.swift in Sources */,
 				0456D0F4200FD99600768CDE /* ViewController.swift in Sources */,
+				0456D124200FDC9000768CDE /* MapViewController.swift in Sources */,
+				0456D118200FDB3300768CDE /* Payment.swift in Sources */,
+				0456D122200FDBAB00768CDE /* Hireme.swift in Sources */,
 				0456D0F2200FD99600768CDE /* AppDelegate.swift in Sources */,
+				0456D11E200FDB7700768CDE /* Support.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +532,7 @@
 		};
 		0456D10C200FD99600768CDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE819080E32508069350F96 /* Pods-Navprof.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -365,6 +547,7 @@
 		};
 		0456D10D200FD99600768CDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA4F3F52418BF6E7CEF0AF4 /* Pods-Navprof.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,6 +562,7 @@
 		};
 		0456D10F200FD99600768CDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5366CB0FC2396327130C124 /* Pods-NavprofTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -395,6 +579,7 @@
 		};
 		0456D110200FD99600768CDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 637AD9BFED8C1BD524A8223A /* Pods-NavprofTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
