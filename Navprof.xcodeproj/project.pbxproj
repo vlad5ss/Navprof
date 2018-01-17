@@ -22,7 +22,7 @@
 		0456D11E200FDB7700768CDE /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D11D200FDB7700768CDE /* Support.swift */; };
 		0456D120200FDB8D00768CDE /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D11F200FDB8D00768CDE /* About.swift */; };
 		0456D122200FDBAB00768CDE /* Hireme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D121200FDBAB00768CDE /* Hireme.swift */; };
-		0456D124200FDC9000768CDE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D123200FDC9000768CDE /* MapViewController.swift */; };
+		0456D126200FFDD400768CDE /* MapviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456D125200FFDD400768CDE /* MapviewController.swift */; };
 		A02529884E75045FF0B39FE9 /* Pods_NavprofTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6F0DBF90F320BAB687D4F7 /* Pods_NavprofTests.framework */; };
 		E9F739C813C6A34AD7A90F1F /* Pods_Navprof.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA2CB61E9181B84F3C12C55 /* Pods_Navprof.framework */; };
 /* End PBXBuildFile section */
@@ -57,7 +57,7 @@
 		0456D11D200FDB7700768CDE /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
 		0456D11F200FDB8D00768CDE /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		0456D121200FDBAB00768CDE /* Hireme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hireme.swift; sourceTree = "<group>"; };
-		0456D123200FDC9000768CDE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0456D125200FFDD400768CDE /* MapviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapviewController.swift; sourceTree = "<group>"; };
 		637AD9BFED8C1BD524A8223A /* Pods-NavprofTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavprofTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavprofTests/Pods-NavprofTests.release.xcconfig"; sourceTree = "<group>"; };
 		7AE819080E32508069350F96 /* Pods-Navprof.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navprof.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Navprof/Pods-Navprof.debug.xcconfig"; sourceTree = "<group>"; };
 		9A6F0DBF90F320BAB687D4F7 /* Pods_NavprofTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavprofTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,7 +120,7 @@
 				0456D11D200FDB7700768CDE /* Support.swift */,
 				0456D11F200FDB8D00768CDE /* About.swift */,
 				0456D121200FDBAB00768CDE /* Hireme.swift */,
-				0456D123200FDC9000768CDE /* MapViewController.swift */,
+				0456D125200FFDD400768CDE /* MapviewController.swift */,
 				0456D0F5200FD99600768CDE /* Main.storyboard */,
 				0456D0F8200FD99600768CDE /* Assets.xcassets */,
 				0456D0FA200FD99600768CDE /* LaunchScreen.storyboard */,
@@ -377,7 +377,7 @@
 				0456D114200FDA4100768CDE /* BaseViewController.swift in Sources */,
 				0456D120200FDB8D00768CDE /* About.swift in Sources */,
 				0456D0F4200FD99600768CDE /* ViewController.swift in Sources */,
-				0456D124200FDC9000768CDE /* MapViewController.swift in Sources */,
+				0456D126200FFDD400768CDE /* MapviewController.swift in Sources */,
 				0456D118200FDB3300768CDE /* Payment.swift in Sources */,
 				0456D122200FDBAB00768CDE /* Hireme.swift in Sources */,
 				0456D0F2200FD99600768CDE /* AppDelegate.swift in Sources */,

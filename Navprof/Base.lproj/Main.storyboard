@@ -53,87 +53,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="68X-uN-onZ" kind="relationship" relationship="rootViewController" id="OPp-gc-DyF"/>
+                        <segue destination="JW3-Ty-3Bh" kind="relationship" relationship="rootViewController" id="H3f-fu-XLW"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Dv-Ac-d3N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="345" y="139"/>
-        </scene>
-        <!--Map View Controller-->
-        <scene sceneID="3VV-Wt-FIN">
-            <objects>
-                <viewController restorationIdentifier="MapViewController" storyboardIdentifier="MapViewController" id="68X-uN-onZ" customClass="MapViewController" customModule="Navprof" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="bNu-hE-R8m">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77N-QU-gPm">
-                                <rect key="frame" x="329" y="495" width="30" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="+">
-                                    <color key="titleShadowColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnZoomIn:" destination="68X-uN-onZ" eventType="touchUpInside" id="0V2-kW-Qe7"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8I-wz-2Ve">
-                                <rect key="frame" x="329" y="545" width="30" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="-">
-                                    <color key="titleShadowColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnZoomOut:" destination="68X-uN-onZ" eventType="touchUpInside" id="qdZ-oj-Jvn"/>
-                                </connections>
-                            </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lZo-An-MfA">
-                                <rect key="frame" x="20" y="94" width="121" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="Map"/>
-                                    <segment title="Satelite"/>
-                                </segments>
-                                <connections>
-                                    <action selector="selectMapView:" destination="68X-uN-onZ" eventType="valueChanged" id="6wx-vj-mL5"/>
-                                </connections>
-                            </segmentedControl>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0n2-G6-zl1" customClass="GMSMapView">
-                                <rect key="frame" x="0.0" y="84" width="375" height="583"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="0n2-G6-zl1" firstAttribute="trailing" secondItem="dRd-ya-dxd" secondAttribute="trailing" id="3HP-cr-fza"/>
-                            <constraint firstItem="0n2-G6-zl1" firstAttribute="bottom" secondItem="dRd-ya-dxd" secondAttribute="bottom" id="88p-Lq-LLh"/>
-                            <constraint firstItem="0n2-G6-zl1" firstAttribute="leading" secondItem="dRd-ya-dxd" secondAttribute="leading" id="nCm-rK-P49"/>
-                            <constraint firstItem="0n2-G6-zl1" firstAttribute="top" secondItem="dRd-ya-dxd" secondAttribute="top" id="zYZ-qZ-UvF"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="dRd-ya-dxd"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="aqD-xZ-udU" userLabel="Profile">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="joxnablack24" id="E3D-Iq-nir"/>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="mapView" destination="0n2-G6-zl1" id="vrU-5R-IAm"/>
-                        <segue destination="piK-qD-8UE" kind="show" identifier="pushToProfile" id="cpo-Vf-hFB"/>
-                        <segue destination="Lg6-Ka-qwr" kind="show" identifier="pushToSupport" id="sKs-Nl-A7p"/>
-                        <segue destination="oHS-wg-kam" kind="show" identifier="pushToAbout" id="9vg-df-a5R"/>
-                        <segue destination="xJI-du-Cgh" kind="show" identifier="pushToPayment" id="rcN-Oh-3xv"/>
-                        <segue destination="Iwb-IQ-ziU" kind="show" identifier="pushToPromotion" id="eqg-pR-qvX"/>
-                        <segue destination="C4b-oX-2Cc" kind="show" identifier="pushToShare" id="lFZ-ln-aUc"/>
-                        <segue destination="oJb-6i-KTS" kind="show" identifier="pushToHireme" id="VHY-J2-qM3"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WpY-K0-bKW" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1141.5999999999999" y="138.98050974512745"/>
         </scene>
         <!--PROFILE-->
         <scene sceneID="o1x-G8-DuU">
@@ -736,13 +661,90 @@
             </objects>
             <point key="canvasLocation" x="-497" y="843"/>
         </scene>
+        <!--Mapview Controller-->
+        <scene sceneID="xKz-c3-50R">
+            <objects>
+                <viewController restorationIdentifier="MapviewController" storyboardIdentifier="MapviewController" id="JW3-Ty-3Bh" customClass="MapviewController" customModule="Navprof" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N7P-rd-jwU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q6x-Aq-Xma" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZ7-s1-mHj">
+                                <rect key="frame" x="329" y="495" width="30" height="51"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="+">
+                                    <color key="titleShadowColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnZoomIn:" destination="JW3-Ty-3Bh" eventType="touchUpInside" id="0VL-1l-F0P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqc-T2-fTF">
+                                <rect key="frame" x="329" y="545" width="30" height="51"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="-">
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnZoomOut:" destination="JW3-Ty-3Bh" eventType="touchUpInside" id="0BA-e1-l7L"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="djf-IB-JU3">
+                                <rect key="frame" x="20" y="94" width="121" height="29"/>
+                                <segments>
+                                    <segment title="Map"/>
+                                    <segment title="Satelite"/>
+                                </segments>
+                                <connections>
+                                    <action selector="selectMapView:" destination="JW3-Ty-3Bh" eventType="valueChanged" id="wJy-Fx-itD"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="djf-IB-JU3" firstAttribute="leading" secondItem="90Q-Pi-4zL" secondAttribute="leading" constant="20" id="091-Mi-FfJ"/>
+                            <constraint firstItem="MZ7-s1-mHj" firstAttribute="top" secondItem="90Q-Pi-4zL" secondAttribute="top" constant="431" id="4yI-W2-rXt"/>
+                            <constraint firstItem="Q6x-Aq-Xma" firstAttribute="top" secondItem="90Q-Pi-4zL" secondAttribute="top" id="D9r-K6-1TT"/>
+                            <constraint firstItem="Q6x-Aq-Xma" firstAttribute="trailing" secondItem="90Q-Pi-4zL" secondAttribute="trailing" id="GyO-7M-suC"/>
+                            <constraint firstItem="Q6x-Aq-Xma" firstAttribute="leading" secondItem="90Q-Pi-4zL" secondAttribute="leading" id="LcD-mV-pxb"/>
+                            <constraint firstItem="uqc-T2-fTF" firstAttribute="leading" secondItem="90Q-Pi-4zL" secondAttribute="leading" constant="329" id="SKG-dS-Suu"/>
+                            <constraint firstItem="Q6x-Aq-Xma" firstAttribute="bottom" secondItem="90Q-Pi-4zL" secondAttribute="bottom" id="VnL-eh-kZQ"/>
+                            <constraint firstItem="90Q-Pi-4zL" firstAttribute="trailing" secondItem="MZ7-s1-mHj" secondAttribute="trailing" constant="16" id="Y7t-Rn-U4c"/>
+                            <constraint firstItem="uqc-T2-fTF" firstAttribute="top" secondItem="90Q-Pi-4zL" secondAttribute="top" constant="481" id="ksr-E6-Ez8"/>
+                            <constraint firstItem="djf-IB-JU3" firstAttribute="top" secondItem="90Q-Pi-4zL" secondAttribute="top" constant="30" id="rIK-n1-B9J"/>
+                            <constraint firstItem="MZ7-s1-mHj" firstAttribute="leading" secondItem="90Q-Pi-4zL" secondAttribute="leading" constant="329" id="rW9-yo-FQo"/>
+                            <constraint firstItem="90Q-Pi-4zL" firstAttribute="trailing" secondItem="uqc-T2-fTF" secondAttribute="trailing" constant="16" id="suk-DH-hOk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="90Q-Pi-4zL"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KP2-is-hoG" userLabel="Profile"/>
+                    <connections>
+                        <outlet property="mapView" destination="Q6x-Aq-Xma" id="ERD-7G-toR"/>
+                        <segue destination="piK-qD-8UE" kind="show" identifier="pushToProfile" id="bg0-wt-dl9"/>
+                        <segue destination="Lg6-Ka-qwr" kind="show" identifier="pushToSupport" id="uMf-zB-Qff"/>
+                        <segue destination="oHS-wg-kam" kind="show" identifier="pushToAbout" id="0b2-FO-cB7"/>
+                        <segue destination="xJI-du-Cgh" kind="show" identifier="pushToPayment" id="SVr-T4-mYg"/>
+                        <segue destination="Iwb-IQ-ziU" kind="show" identifier="pushToPayment" id="mdL-wx-FkM"/>
+                        <segue destination="C4b-oX-2Cc" kind="show" identifier="pushToShare" id="SIa-jw-e4b"/>
+                        <segue destination="oJb-6i-KTS" kind="show" identifier="pushToShare" id="37d-G9-Vs4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ybo-bk-cAY" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1141.5999999999999" y="138.98050974512745"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Share" width="48" height="48"/>
         <image name="credit_card_36pt" width="36" height="36"/>
         <image name="home" width="24" height="24"/>
         <image name="joxnablack1" width="428" height="426"/>
-        <image name="joxnablack24" width="24" height="24"/>
         <image name="joxnalogo" width="513" height="144"/>
         <image name="shopping" width="24" height="24"/>
         <image name="signal" width="24" height="24"/>

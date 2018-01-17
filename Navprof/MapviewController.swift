@@ -1,19 +1,17 @@
 //
-//  MapViewController.swift
+//  MapviewController.swift
 //  Navprof
 //
-//  Created by mac on 1/17/18.
+//  Created by mac on 1/18/18.
 //  Copyright © 2018 mac. All rights reserved.
 //
-
-
 
 import UIKit
 import GooglePlaces
 import GoogleMaps
 
 
-class MapViewController: BaseViewController {
+class MapviewController: BaseViewController {
     
     
     struct Place {
@@ -40,7 +38,7 @@ class MapViewController: BaseViewController {
         //set image for button
         button.setImage(UIImage(named: "joxnablack24png.png"), for: UIControlState.normal)
         //add function for button
-        button.addTarget(self, action: #selector(MapViewController.joxnablckPressed), for: UIControlEvents.touchUpInside)
+        button.addTarget(self, action: #selector(MapviewController.joxnablckPressed), for: UIControlEvents.touchUpInside)
         //set frame
         button.frame = CGRect(x: 0, y: 0, width: 53, height: 51)
         
@@ -52,7 +50,6 @@ class MapViewController: BaseViewController {
         
         let camera = GMSCameraPosition.camera(withLatitude: 34.1381168, longitude: -118.3555723, zoom: zoom)
         self.mapView.camera = camera
-        mapView.settings.compassButton = true
         
         do {
             if let styleURL = Bundle.main.url(forResource: "style", withExtension: "json") {
@@ -65,7 +62,7 @@ class MapViewController: BaseViewController {
         }
         
         let places = [
-            Place(id: 0, name: "Globo", lat: 53.875675, lng: 27.497548, icon: "i01"),
+            Place(id: 0, name: "MrMins", lat: 34.1331168, lng: -118.3550723, icon: "i01"),
             ]
         
         for place in places {
@@ -89,6 +86,14 @@ class MapViewController: BaseViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        //
+        //        //deklarasi nav sebagai navigation bar
+        //        let nav = self.navigationController?.navigationBar
+        //
+        //        //tambahkan style bar
+        //        nav?.barStyle = UIBarStyle.black
+        //        nav?.tintColor = UIColor.white
+        
         //menambahkan gambar atau logo
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 24, height: 24))
         imageView.contentMode = .scaleAspectFill
@@ -100,12 +105,29 @@ class MapViewController: BaseViewController {
         
         //menampilkan title navigation item sebagai imageView
         navigationItem.titleView = imageView
+        
+        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //    override func loadView() {
+    //        // Create a GMSCameraPosition that tells the map to display the
+    //        // coordinate -33.86,151.20 at zoom level 6.
+    //        let camera = GMSCameraPosition.camera(withLatitude: -33.86, longitude: 151.20, zoom: 6.0)
+    //        let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
+    //        view = mapView
+    //
+    //        // Creates a marker in the center of the map.
+    //        let marker = GMSMarker()
+    //        marker.position = CLLocationCoordinate2D(latitude: -33.86, longitude: 151.20)
+    //        marker.title = "Sydney"
+    //        marker.snippet = "Australia"
+    //        marker.map = mapView
+    //    }
     
     @IBAction func btnZoomIn(_ sender: Any) {
         zoom = zoom + 1
@@ -116,7 +138,6 @@ class MapViewController: BaseViewController {
         zoom = zoom - 1
         self.mapView.animate(toZoom: zoom)
     }
-    
     @IBAction func selectMapView(_ sender: UISegmentedControl) {
         switch sender.selectedSegmentIndex {
         case 0:

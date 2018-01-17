@@ -59,7 +59,7 @@ class MainViewController:  UIViewController, UITableViewDataSource, UITableViewD
     }
     
     func updateArrayMenuOptions(){
-        arrayMenuOptions.append(["title":"MapViewController", "icon":"ic_my_location_white"])
+        arrayMenuOptions.append(["title":"MapviewController", "icon":"ic_my_location_white"])
         arrayMenuOptions.append(["title":"Profile", "icon":"ProfileIcon"])
         arrayMenuOptions.append(["title":"Payment", "icon":"PaymentIcon"])
         arrayMenuOptions.append(["title":"Promotion", "icon":"PromotionIcon"])
