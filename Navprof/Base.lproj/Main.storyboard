@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="345" y="139"/>
         </scene>
-        <!--Mapview Controller-->
+        <!--Map View Controller-->
         <scene sceneID="3VV-Wt-FIN">
             <objects>
-                <viewController restorationIdentifier="MapviewController" storyboardIdentifier="MapviewController" id="68X-uN-onZ" customClass="MapviewController" customModule="Navprof" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="MapviewController" storyboardIdentifier="MapviewController" id="68X-uN-onZ" customClass="MapViewController" customModule="Navprof" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bNu-hE-R8m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -118,7 +118,7 @@
                         <viewLayoutGuide key="safeArea" id="dRd-ya-dxd"/>
                     </view>
                     <navigationItem key="navigationItem" id="aqD-xZ-udU" userLabel="Profile">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="E3D-Iq-nir"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="joxnablack24" id="E3D-Iq-nir"/>
                     </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="0n2-G6-zl1" id="HH2-aa-jSG"/>
@@ -742,6 +742,7 @@
         <image name="credit_card_36pt" width="36" height="36"/>
         <image name="home" width="24" height="24"/>
         <image name="joxnablack1" width="428" height="426"/>
+        <image name="joxnablack24" width="24" height="24"/>
         <image name="joxnalogo" width="513" height="144"/>
         <image name="shopping" width="24" height="24"/>
         <image name="signal" width="24" height="24"/>

@@ -13,7 +13,7 @@ import GooglePlaces
 import GoogleMaps
 
 
-class MapviewController: BaseViewController {
+class MapViewController: BaseViewController {
     
     
     struct Place {
@@ -40,7 +40,7 @@ class MapviewController: BaseViewController {
         //set image for button
         button.setImage(UIImage(named: "joxnablack24png.png"), for: UIControlState.normal)
         //add function for button
-        button.addTarget(self, action: #selector(MapviewController.joxnablckPressed), for: UIControlEvents.touchUpInside)
+        button.addTarget(self, action: #selector(MapViewController.joxnablckPressed), for: UIControlEvents.touchUpInside)
         //set frame
         button.frame = CGRect(x: 0, y: 0, width: 53, height: 51)
         
